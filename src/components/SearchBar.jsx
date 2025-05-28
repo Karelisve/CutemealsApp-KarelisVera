@@ -1,10 +1,10 @@
 import React, { useState, useRef } from "react";
 import {
-  View,
-  TextInput,
-  StyleSheet,
-  Animated,
-  TouchableOpacity,
+    View,
+    TextInput,
+    StyleSheet,
+    Animated,
+    TouchableOpacity,
 } from "react-native";
 import { colors } from '../global/colors';
 import { Feather, Ionicons } from "@expo/vector-icons";

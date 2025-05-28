@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
+import SearchBar from '../components/SearchBar'
 import React from 'react'
 
 const Recipes = () => {
     return (
         <View>
-            <Text>Recipes</Text>
+            <SearchBar />
         </View>
     )
 }

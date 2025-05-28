@@ -15,6 +15,7 @@ const HomeNavigator = () =>  {
         <Tab.Navigator
         initialRouteName="Home"
             screenOptions={({ route }) => ({
+                headerShown: false,
             tabBarIcon: ({ color, size }) => {
                 let iconName;
                 if (route.name === "Home") {
